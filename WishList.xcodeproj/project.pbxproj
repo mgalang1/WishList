@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E50D0CAE14DD9B1600FCB34B /* WishListDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D0CAD14DD9B1500FCB34B /* WishListDetailController.m */; };
+		E50D0CB914DE5D3800FCB34B /* WishItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D0CB814DE5D3700FCB34B /* WishItem.m */; };
+		E50D0CC214DF820400FCB34B /* WishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D0CC114DF820300FCB34B /* WishListViewController.m */; };
+		E521045B14DA556B00E48343 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E521045A14DA556B00E48343 /* UIKit.framework */; };
+		E521045D14DA556B00E48343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E521045C14DA556B00E48343 /* Foundation.framework */; };
+		E521045F14DA556B00E48343 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E521045E14DA556B00E48343 /* CoreGraphics.framework */; };
+		E521046514DA556B00E48343 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E521046314DA556B00E48343 /* InfoPlist.strings */; };
+		E521046714DA556B00E48343 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E521046614DA556B00E48343 /* main.m */; };
+		E521046B14DA556B00E48343 /* WishListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E521046A14DA556B00E48343 /* WishListAppDelegate.m */; };
+		E521047314DA556B00E48343 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E521047214DA556B00E48343 /* SenTestingKit.framework */; };
+		E521047414DA556B00E48343 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E521045A14DA556B00E48343 /* UIKit.framework */; };
+		E521047514DA556B00E48343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E521045C14DA556B00E48343 /* Foundation.framework */; };
+		E521047D14DA556B00E48343 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E521047B14DA556B00E48343 /* InfoPlist.strings */; };
+		E521048014DA556B00E48343 /* WishListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E521047F14DA556B00E48343 /* WishListTests.m */; };
+		E521048B14DA582600E48343 /* WishListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E521048A14DA582600E48343 /* WishListModel.m */; };
+		E547C70214E85AE0008A2A73 /* dadicon.png in Resources */ = {isa = PBXBuildFile; fileRef = E547C70114E85AE0008A2A73 /* dadicon.png */; };
+		E547C70414E85E8B008A2A73 /* momicon.png in Resources */ = {isa = PBXBuildFile; fileRef = E547C70314E85E8B008A2A73 /* momicon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E521047614DA556B00E48343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E521044D14DA556B00E48343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E521045514DA556B00E48343;
+			remoteInfo = WishList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E50D0CAC14DD9B1500FCB34B /* WishListDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishListDetailController.h; sourceTree = "<group>"; };
+		E50D0CAD14DD9B1500FCB34B /* WishListDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishListDetailController.m; sourceTree = "<group>"; };
+		E50D0CB714DE5D3700FCB34B /* WishItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishItem.h; sourceTree = "<group>"; };
+		E50D0CB814DE5D3700FCB34B /* WishItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishItem.m; sourceTree = "<group>"; };
+		E50D0CC014DF820300FCB34B /* WishListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishListViewController.h; sourceTree = "<group>"; };
+		E50D0CC114DF820300FCB34B /* WishListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishListViewController.m; sourceTree = "<group>"; };
+		E521045614DA556B00E48343 /* WishList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E521045A14DA556B00E48343 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E521045C14DA556B00E48343 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E521045E14DA556B00E48343 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E521046214DA556B00E48343 /* WishList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WishList-Info.plist"; sourceTree = "<group>"; };
+		E521046414DA556B00E48343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E521046614DA556B00E48343 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E521046814DA556B00E48343 /* WishList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WishList-Prefix.pch"; sourceTree = "<group>"; };
+		E521046914DA556B00E48343 /* WishListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WishListAppDelegate.h; sourceTree = "<group>"; };
+		E521046A14DA556B00E48343 /* WishListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WishListAppDelegate.m; sourceTree = "<group>"; };
+		E521047114DA556B00E48343 /* WishListTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishListTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E521047214DA556B00E48343 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E521047A14DA556B00E48343 /* WishListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WishListTests-Info.plist"; sourceTree = "<group>"; };
+		E521047C14DA556B00E48343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E521047E14DA556B00E48343 /* WishListTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WishListTests.h; sourceTree = "<group>"; };
+		E521047F14DA556B00E48343 /* WishListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WishListTests.m; sourceTree = "<group>"; };
+		E521048914DA582600E48343 /* WishListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WishListModel.h; sourceTree = "<group>"; };
+		E521048A14DA582600E48343 /* WishListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WishListModel.m; sourceTree = "<group>"; };
+		E547C70114E85AE0008A2A73 /* dadicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dadicon.png; sourceTree = "<group>"; };
+		E547C70314E85E8B008A2A73 /* momicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = momicon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E521045314DA556B00E48343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E521045B14DA556B00E48343 /* UIKit.framework in Frameworks */,
+				E521045D14DA556B00E48343 /* Foundation.framework in Frameworks */,
+				E521045F14DA556B00E48343 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E521046D14DA556B00E48343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E521047314DA556B00E48343 /* SenTestingKit.framework in Frameworks */,
+				E521047414DA556B00E48343 /* UIKit.framework in Frameworks */,
+				E521047514DA556B00E48343 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E521044B14DA556B00E48343 = {
+			isa = PBXGroup;
+			children = (
+				E521046014DA556B00E48343 /* WishList */,
+				E521047814DA556B00E48343 /* WishListTests */,
+				E521045914DA556B00E48343 /* Frameworks */,
+				E521045714DA556B00E48343 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E521045714DA556B00E48343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E521045614DA556B00E48343 /* WishList.app */,
+				E521047114DA556B00E48343 /* WishListTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E521045914DA556B00E48343 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E521045A14DA556B00E48343 /* UIKit.framework */,
+				E521045C14DA556B00E48343 /* Foundation.framework */,
+				E521045E14DA556B00E48343 /* CoreGraphics.framework */,
+				E521047214DA556B00E48343 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E521046014DA556B00E48343 /* WishList */ = {
+			isa = PBXGroup;
+			children = (
+				E50D0CC014DF820300FCB34B /* WishListViewController.h */,
+				E50D0CC114DF820300FCB34B /* WishListViewController.m */,
+				E50D0CAC14DD9B1500FCB34B /* WishListDetailController.h */,
+				E50D0CAD14DD9B1500FCB34B /* WishListDetailController.m */,
+				E521046914DA556B00E48343 /* WishListAppDelegate.h */,
+				E521046A14DA556B00E48343 /* WishListAppDelegate.m */,
+				E521048914DA582600E48343 /* WishListModel.h */,
+				E521048A14DA582600E48343 /* WishListModel.m */,
+				E50D0CB714DE5D3700FCB34B /* WishItem.h */,
+				E50D0CB814DE5D3700FCB34B /* WishItem.m */,
+				E521046114DA556B00E48343 /* Supporting Files */,
+			);
+			path = WishList;
+			sourceTree = "<group>";
+		};
+		E521046114DA556B00E48343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E547C70314E85E8B008A2A73 /* momicon.png */,
+				E547C70114E85AE0008A2A73 /* dadicon.png */,
+				E521046214DA556B00E48343 /* WishList-Info.plist */,
+				E521046314DA556B00E48343 /* InfoPlist.strings */,
+				E521046614DA556B00E48343 /* main.m */,
+				E521046814DA556B00E48343 /* WishList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E521047814DA556B00E48343 /* WishListTests */ = {
+			isa = PBXGroup;
+			children = (
+				E521047E14DA556B00E48343 /* WishListTests.h */,
+				E521047F14DA556B00E48343 /* WishListTests.m */,
+				E521047914DA556B00E48343 /* Supporting Files */,
+			);
+			path = WishListTests;
+			sourceTree = "<group>";
+		};
+		E521047914DA556B00E48343 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E521047A14DA556B00E48343 /* WishListTests-Info.plist */,
+				E521047B14DA556B00E48343 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E521045514DA556B00E48343 /* WishList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E521048314DA556B00E48343 /* Build configuration list for PBXNativeTarget "WishList" */;
+			buildPhases = (
+				E521045214DA556B00E48343 /* Sources */,
+				E521045314DA556B00E48343 /* Frameworks */,
+				E521045414DA556B00E48343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WishList;
+			productName = WishList;
+			productReference = E521045614DA556B00E48343 /* WishList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E521047014DA556B00E48343 /* WishListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E521048614DA556B00E48343 /* Build configuration list for PBXNativeTarget "WishListTests" */;
+			buildPhases = (
+				E521046C14DA556B00E48343 /* Sources */,
+				E521046D14DA556B00E48343 /* Frameworks */,
+				E521046E14DA556B00E48343 /* Resources */,
+				E521046F14DA556B00E48343 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E521047714DA556B00E48343 /* PBXTargetDependency */,
+			);
+			name = WishListTests;
+			productName = WishListTests;
+			productReference = E521047114DA556B00E48343 /* WishListTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E521044D14DA556B00E48343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E521045014DA556B00E48343 /* Build configuration list for PBXProject "WishList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E521044B14DA556B00E48343;
+			productRefGroup = E521045714DA556B00E48343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E521045514DA556B00E48343 /* WishList */,
+				E521047014DA556B00E48343 /* WishListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E521045414DA556B00E48343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E521046514DA556B00E48343 /* InfoPlist.strings in Resources */,
+				E547C70214E85AE0008A2A73 /* dadicon.png in Resources */,
+				E547C70414E85E8B008A2A73 /* momicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E521046E14DA556B00E48343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E521047D14DA556B00E48343 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E521046F14DA556B00E48343 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E521045214DA556B00E48343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E521046714DA556B00E48343 /* main.m in Sources */,
+				E521046B14DA556B00E48343 /* WishListAppDelegate.m in Sources */,
+				E521048B14DA582600E48343 /* WishListModel.m in Sources */,
+				E50D0CAE14DD9B1600FCB34B /* WishListDetailController.m in Sources */,
+				E50D0CB914DE5D3800FCB34B /* WishItem.m in Sources */,
+				E50D0CC214DF820400FCB34B /* WishListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E521046C14DA556B00E48343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E521048014DA556B00E48343 /* WishListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E521047714DA556B00E48343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E521045514DA556B00E48343 /* WishList */;
+			targetProxy = E521047614DA556B00E48343 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E521046314DA556B00E48343 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E521046414DA556B00E48343 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E521047B14DA556B00E48343 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E521047C14DA556B00E48343 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E521048114DA556B00E48343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E521048214DA556B00E48343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E521048414DA556B00E48343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WishList/WishList-Prefix.pch";
+				INFOPLIST_FILE = "WishList/WishList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E521048514DA556B00E48343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WishList/WishList-Prefix.pch";
+				INFOPLIST_FILE = "WishList/WishList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E521048714DA556B00E48343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WishList.app/WishList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WishList/WishList-Prefix.pch";
+				INFOPLIST_FILE = "WishListTests/WishListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E521048814DA556B00E48343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WishList.app/WishList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WishList/WishList-Prefix.pch";
+				INFOPLIST_FILE = "WishListTests/WishListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E521045014DA556B00E48343 /* Build configuration list for PBXProject "WishList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E521048114DA556B00E48343 /* Debug */,
+				E521048214DA556B00E48343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E521048314DA556B00E48343 /* Build configuration list for PBXNativeTarget "WishList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E521048414DA556B00E48343 /* Debug */,
+				E521048514DA556B00E48343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E521048614DA556B00E48343 /* Build configuration list for PBXNativeTarget "WishListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E521048714DA556B00E48343 /* Debug */,
+				E521048814DA556B00E48343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E521044D14DA556B00E48343 /* Project object */;
+}
